@@ -42,10 +42,18 @@
  	  <label> PASSWORD :</label>
 	  <input placeholder="enter your password" type="password" required></input><br><br>
 	 
-	  <button onclick="submit"> submit </button>
+	  <button onclick="showdetails()"> submit </button>
 	  
 	 </form> 
 	  
 	
 	  </body>
 </html> 
+<script>
+
+function shownameage(){
+  let username = document.getElementById("username").value;
+  let password = document.getElementById("password").value;
+  alert( "Hello" +" "+ username +" " + "your age is " + password);
+  }
+</script>
